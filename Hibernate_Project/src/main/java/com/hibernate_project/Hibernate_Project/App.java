@@ -36,6 +36,8 @@ public class App
         adt.setOpen(true);
         adt.setAdded_date(new Date());
         adt.setX(123.34);
+        
+        //uploading image on database;
         FileInputStream fl=new FileInputStream("src/main/java/IMG-20200514-WA0017.jpg");
         byte[] data=new byte[fl.available()];
         fl.read(data);
