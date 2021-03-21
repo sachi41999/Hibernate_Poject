@@ -12,8 +12,22 @@ public class Student_data {
 	
 	private String city;
 	private String name;
+	private College clg ;
 	
 	
+	
+
+
+	public College getClg() {
+		return clg;
+	}
+
+
+	public void setClg(College clg) {
+		this.clg = clg;
+	}
+
+
 	public Student_data(int id, String city, String name) {
 		super();
 		this.id = id;
